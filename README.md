@@ -8,7 +8,7 @@ This app can collect data on the number of likes and comments in VK. That is, fo
 2. Go to section "Settings", and find <b>App ID</b> (for example, 1234567).</br>
 Using the address bar go to link https://oauth.vk.com/authorize?client_id=1234567&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,offline&response_type=token&v=5.52, replacing 1234567 on your token. Than click "Allow".
 The access_token value is your token. It may look like:
->"51eff86578a3bbbcb5c7043a122a69fd04dca057ac821dd7afd7c2d8e35b60172d45a26599c08034cc40a"
+>51eff86578a3bbbcb5c7043a122a69fd04dca057ac821dd7afd7c2d8e35b60172d45a26599c08034cc40a
 
 The token is your access key. If certain conditions are met, the person who received your token can cause significant damage to your data and the data of other people. Therefore, it is very important not to transfer your token to third parties.
 
